@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600&display=swap');
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+    color: #2f2f2f;
+    border-bottom: 2px solid #FFE136;
+    width: 50px;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+    color: #2f2f2f;
+
+}
+
+h4 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFE136;
+    padding-left: 0px;  
+
+}
+
+p {
+    font-family: helvetica;
+    font-size: 16px;
+}
+
+#layout a, #content a {
+    color: #5B36B7; 
+}
+
+.btn {
+    padding: 0px;
+}
+
+.card {
+    border-color: white;
+}
+
+#functies h1 {
+    color: #ffffff;
+}
+
+
+#header {
+    background-image: linear-gradient(#5B36B7, #34177C);
+    width: 100%;
+    height: auto;
+    padding: 125px 0px;
+}
+
+#samenvatting {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+}
+
+#uitleg {
+     width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background-color: #F9F9FA;
+}
+
+#uitleg a {
+    color: #3C364B;
+    text-decoration: underline;
+}
+
+#functies {
+         width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background-color: #3C364B;
+    
+}
+
+#layout, #content, #componenten {
+    width: 100%;
+    margin: 25px auto;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.closepopup {
+    position: absolute;
+    right: 35px;
+    top: 50px;
+    color: red;
+}
+
+.voorbeeldgrid {
+    width: 100%;
+    min-height: 25px;
+    background-color: #5B36B7;
+    border: 5px solid white;
+    color: white;
+}
+
+#buttonsluiten, #buttonsluiten2, #buttonsluiten3 {
+    width: 200px;
+    height: 40px;
+
+    padding: 5px;
+    margin: 10px auto 0px auto;
+    
+}
+
+@media (max-width: 575.98px) { 
+    .image-header {
+        padding-top: 50px;
+    }
+}
